@@ -16,7 +16,7 @@ export const profile = {
   identity:
     "Technology Founder · Enterprise Architect · Digital Commerce Executive · AI Platform Designer",
   pitch:
-    "Entrepreneurial CTO/COO and platform architect with 25+ years building and scaling high-availability, multi-tenant commerce and media platforms. Founder of SAVVIS (NASDAQ IPO, ~$2.2B first-day value), and took Phantom Entertainment, StationDigital, and HashingSpace public. Today I'm CEO of Platformz and COO/CTO of FUR4 — inventor and principal designer of a modular, multi-tenant commerce platform.",
+    "Entrepreneurial CTO/COO and platform architect with 25+ years building and scaling high-availability, multi-tenant commerce and media platforms. Co-founder of SAVVIS (NASDAQ: SVVS, later acquired by CenturyLink for ~$3.4B), and took Phantom Entertainment, StationDigital, and HashingSpace public. Today I'm CEO of Platformz and COO/CTO of FUR4 — inventor and principal designer of a modular, multi-tenant commerce platform.",
   email: "tim@platformz.us",
   emailAlt: "troberts@fur4.com",
   phone: "+1 (636) 735-1657",
@@ -30,7 +30,7 @@ export const profile = {
 export const heroStats = [
   { value: 25, suffix: "+", label: "Years building & scaling platforms" },
   { value: 4, suffix: "", label: "Companies taken public" },
-  { value: 2, suffix: ".2B", label: "SAVVIS IPO first-day value (~$)" },
+  { value: 3, suffix: ".4B", label: "SAVVIS → CenturyLink acquisition (~$)" },
   { value: 99, suffix: ".99%", label: "Uptime targets, active-active failover" },
 ];
 
@@ -57,10 +57,11 @@ export const originStory = [
    games, telecommunications, programming, and bulletin board systems. While other kids
    played games, I was online over 300bps modems, living through the evolution from BBSs and
    ARPANET into what we now call the Internet.`,
-  `That early fascination became a 25+ year run building and scaling platforms: I founded
-   SAVVIS (NASDAQ IPO, ~$2.2B first-day value), and took Phantom Entertainment, StationDigital,
-   and HashingSpace public. Today I'm CEO of Platformz and COO/CTO of FUR4 — and the inventor
-   and principal designer of a modular, multi-tenant commerce platform. Here's the journey:`,
+  `That early fascination became a 25+ year run building and scaling platforms: I co-founded
+   SAVVIS (the first high-QoS national backbone, later acquired by CenturyLink for ~$3.4B), and
+   took Phantom Entertainment, StationDigital, and HashingSpace public. Today I'm CEO of Platformz
+   and COO/CTO of FUR4 — inventor and principal designer of a multi-tenant commerce platform.
+   Here's the journey:`,
 ];
 
 // ----------------------------------------------------------------------------
@@ -94,76 +95,104 @@ export const journey: JourneyStep[] = [
   },
   {
     lv: 2,
-    year: "1995",
+    year: "1994",
     icon: "🌐",
-    title: "Founder & CEO — SAVVIS",
-    where: "SAVVIS Communications",
-    note: "Global managed hosting & network services. NASDAQ IPO (~$2.2B).",
+    title: "Co-founder & CTO — SAVVIS",
+    where: "Diamond.net / SAVVIS",
+    note: "The first high-QoS national Internet backbone (NASDAQ: SVVS).",
     details: [
-      "Architected a high-quality-of-service national Internet backbone",
-      "Scaled to a NASDAQ IPO — raised ~$408M, ~$2.2B first-day value",
-      "Acquired by CenturyLink (now Lumen) in 2011 for ~$2.5B",
+      "Designed the first high-QoS national backbone — OC3 ATM across 22 Tier-1 cities",
+      "Originated QoS guarantees, metered billing, and PNAPs; landed Apple as anchor client",
+      "Gateway VC funding; NASDAQ IPO; later acquired by CenturyLink for ~$3.4B",
     ],
   },
   {
     lv: 3,
     year: "1997",
     icon: "🏢",
-    title: "Founder & CTO — Intira",
+    title: "Founder & CEO — Intira",
     where: "Intira Corporation",
-    note: "Enterprise data centers; lineage now Terremark.",
+    note: "The first company ever to sell cloud computing as a service.",
     details: [
-      "Pioneered a capital-intensive 'Netsourcing' managed-infrastructure model",
-      "Built data centers in St. Louis, New York, and Pleasanton, CA",
-      "Lineage lives on through Data Return → Terremark",
+      "First ever to sell cloud computing as a service ('Netsourcing')",
+      "Raised $30M; built 3 data centers (Missouri, New York, California)",
+      "Intira → Data Return → Terremark (TMRK) → Verizon for ~$1.6B",
     ],
   },
   {
     lv: 4,
     year: "2002",
     icon: "🎮",
-    title: "Founder & CEO — Phantom Entertainment",
+    title: "Founder, CEO & CTO — Phantom",
     where: "Infinium Labs / Phantom",
-    note: "PC-based living-room game platform. Public via reverse merger.",
+    note: "PC-based game platform, public via reverse merger (2004).",
     details: [
       "Took the company public via reverse merger",
       "Recruited Kevin Bachus (Xbox founding team) as President/COO",
-      "Built an on-demand game platform; the Lapboard is still sold today",
+      "Built on-demand application streaming; the Lapboard is still sold today",
     ],
   },
   {
     lv: 5,
-    year: "2014",
-    icon: "🎬",
-    title: "Chairman & CEO — StationDigital",
-    where: "StationDigital Corporation",
-    note: "Ad-supported music/video OTT. Public via reverse merger.",
+    year: "2007",
+    icon: "🕹️",
+    title: "CEO & CTO — GameStreamer",
+    where: "GameStreamer, Inc.",
+    note: "B2B game distribution at 99.999% uptime. Acquired.",
     details: [
-      "Took the company public via reverse merger",
-      "Google marketing partnership drove ~4M unique visitors in 2 months",
-      "Built content-ingestion and ad-ops infrastructure",
+      "First automated, real-time game-publishing system with a white-label SDK",
+      "2,200+ games from 220 developers; stores localized into 22 languages",
+      "Acquired by Media Speed Tech, LLC",
     ],
   },
   {
     lv: 6,
-    year: "2015",
-    icon: "🪙",
-    title: "CEO — HashingSpace",
-    where: "HashingSpace Corporation",
-    note: "Bitcoin mining & hosting. Public via reverse triangular merger.",
+    year: "2010",
+    icon: "🛒",
+    title: "Founder, Chairman & CEO — Savtira",
+    where: "Savtira Corporation",
+    note: "Enterprise cloud commerce for physical & digital goods.",
     details: [
-      "Took the company public via reverse triangular merger",
-      "Built hosting/mining infrastructure and data-center expansion plans",
-      "Established DWAC services for shareholders",
+      "Pioneered a cloud commerce eco-system on virtualized IBM WebSphere Commerce",
+      "5 patents as inventor — application streaming, encoding, digital-goods auto-publishing",
+      "6 data centers, 28 wholesale partners, 160 employees & contractors",
     ],
   },
   {
     lv: 7,
+    year: "2013",
+    icon: "🎬",
+    title: "Founder & CEO — StationDigital",
+    where: "StationDigital Corporation",
+    note: "Ad-supported DMCA radio & video with 22M+ tracks. Public.",
+    parallel: true,
+    details: [
+      "Pioneered an ad-supported, DMCA-compliant digital radio station (22M+ tracks)",
+      "Took the company public via reverse merger",
+      "Built the content-ingestion and ad-ops stack",
+    ],
+  },
+  {
+    lv: 8,
+    year: "2013",
+    icon: "🪙",
+    title: "Founder & CEO — HashingSpace",
+    where: "HashingSpace Corporation",
+    note: "Bitcoin mining, hosting & pools. Public via reverse merger.",
+    parallel: true,
+    details: [
+      "Built Bitcoin mining, hosting, wallet, exchange, and mining pools",
+      "Took the company public via reverse triangular merger",
+      "A deep, early bet on Bitcoin & blockchain infrastructure",
+    ],
+  },
+  {
+    lv: 9,
     year: "2022",
     icon: "👑",
     title: "Chief Executive Officer — Platformz",
     where: "Platformz.us",
-    note: "Multi-tenant, enterprise-class commerce platform (100% owned by FUR4).",
+    note: "Multi-tenant commerce platform (100% owned by FUR4).",
     parallel: true,
     details: [
       "Designed the macro topology: React/Next, Magento 2, Strapi, GraphQL, AWS, Cloudflare",
@@ -172,7 +201,7 @@ export const journey: JourneyStep[] = [
     ],
   },
   {
-    lv: 8,
+    lv: 10,
     year: "2024",
     icon: "⚙️",
     title: "COO & CTO — FUR4",
@@ -293,7 +322,7 @@ export const skillTree: SkillNode[] = [
     branch: "Leadership",
     level: 5,
     example:
-      "Raised institutional capital and led roll-ups and acquisitions — SAVVIS reached a ~$2.2B first-day value and was later acquired for ~$2.5B.",
+      "Raised institutional capital and led roll-ups and acquisitions — SAVVIS was later acquired by CenturyLink for ~$3.4B; Intira's lineage (Terremark) sold to Verizon for ~$1.6B.",
   },
   {
     id: "global-teams",
