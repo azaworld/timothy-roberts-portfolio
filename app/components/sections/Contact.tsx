@@ -183,6 +183,11 @@ export default function Contact() {
                 </a>
               </li>
               <li>
+                <a href={`mailto:${profile.emailAdvisory}`} className="flex items-center gap-3 text-muted transition-colors hover:text-cyan">
+                  <span aria-hidden>📧</span> {profile.emailAdvisory}
+                </a>
+              </li>
+              <li>
                 <a href={`tel:${profile.phone.replace(/[^+\d]/g, "")}`} className="flex items-center gap-3 text-muted transition-colors hover:text-cyan">
                   <span aria-hidden>📞</span> {profile.phone}
                 </a>

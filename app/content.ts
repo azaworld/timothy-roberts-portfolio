@@ -19,6 +19,7 @@ export const profile = {
     "Entrepreneurial CTO/COO and platform architect with 25+ years building and scaling high-availability, multi-tenant commerce and media platforms. Co-founder of SAVVIS (NASDAQ: SVVS, later acquired by CenturyLink for ~$3.4B), and took Phantom Entertainment, StationDigital, and HashingSpace public. Today I'm CEO of Platformz and COO/CTO of FUR4 — inventor and principal designer of a modular, multi-tenant commerce platform.",
   email: "tim@platformz.us",
   emailAlt: "troberts@fur4.com",
+  emailAdvisory: "timothy@ceosavvy.com",
   phone: "+1 (636) 735-1657",
   linkedin: "https://www.linkedin.com/in/platformz",
   platformz: "https://platformz.us",

@@ -30,6 +30,8 @@ export const personJsonLd = {
   image: `${SITE_URL}/portrait.jpg`,
   description: BIO_SHORT,
   jobTitle: "Chief Executive Officer & Chief Technology Officer",
+  email: "mailto:tim@platformz.us",
+  telephone: "+1-636-735-1657",
   worksFor: [
     { "@type": "Organization", name: "Platformz", url: "https://platformz.us" },
     { "@type": "Organization", name: "FUR4", url: "https://fur4.com" },
