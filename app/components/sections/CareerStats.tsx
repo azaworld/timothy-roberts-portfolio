@@ -45,8 +45,8 @@ function GrowthCurve() {
   return (
     <div ref={ref} className="glass rounded-2xl p-6">
       <h3 className="text-sm font-semibold">The climb</h3>
-      <p className="mt-1 text-xs text-muted">Scope & seniority, 1985 → today</p>
-      <svg viewBox={`0 0 ${W} ${H + 22}`} className="mt-4 w-full" role="img" aria-label="Career seniority rising from 2018 to today">
+      <p className="mt-1 text-xs text-muted">Scope & seniority, 1984 → today</p>
+      <svg viewBox={`-10 0 ${W + 20} ${H + 22}`} className="mt-4 w-full" role="img" aria-label="Career seniority rising from 1984 to today">
         <defs>
           <linearGradient id="climb-fill" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="var(--violet)" stopOpacity="0.4" />
@@ -84,7 +84,13 @@ function GrowthCurve() {
               fill={i === pts.length - 1 ? "var(--amber)" : "var(--cyan)"}
               style={{ opacity: inView ? 1 : 0, transition: `opacity 0.4s ease ${0.6 + i * 0.12}s` }}
             />
-            <text x={p.x} y={H + 16} textAnchor="middle" className="fill-[var(--muted)]" style={{ fontSize: 8, fontFamily: "var(--font-geist-mono)" }}>
+            <text
+              x={p.x}
+              y={H + 16}
+              textAnchor={i === 0 ? "start" : i === pts.length - 1 ? "end" : "middle"}
+              className="fill-[var(--muted)]"
+              style={{ fontSize: 8, fontFamily: "var(--font-geist-mono)" }}
+            >
               {p.d.year}
             </text>
           </g>
