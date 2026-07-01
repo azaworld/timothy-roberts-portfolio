@@ -91,6 +91,15 @@ function MissionModal({ mission, onClose }: { mission: Mission; onClose: () => v
             </ul>
           </>
         )}
+
+        {!["early", "jandg"].includes(mission.id) && (
+          <a
+            href={`/story/${mission.id}/`}
+            className="mt-8 inline-block rounded-lg border border-violet/40 bg-violet/10 px-4 py-2 font-mono text-xs text-violet transition-colors hover:bg-violet/20"
+          >
+            Read the full case study →
+          </a>
+        )}
       </div>
     </div>
   );
