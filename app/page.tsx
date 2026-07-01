@@ -21,6 +21,8 @@ import Projects from "./components/sections/Projects";
 import Dashboard from "./components/sections/Dashboard";
 import CareerStats from "./components/sections/CareerStats";
 import Recommendations from "./components/sections/Recommendations";
+import References from "./components/sections/References";
+import Faq from "./components/sections/Faq";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 
@@ -50,6 +52,8 @@ export default function Home() {
         <Dashboard />
         <CareerStats />
         <Recommendations />
+        <References />
+        <Faq />
         <Contact />
       </main>
 

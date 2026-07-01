@@ -788,6 +788,7 @@ export const treeNodes = [
   { label: "FUR4", href: "#fur4", teaser: "Digital transformation in production" },
   { label: "IP & Awards", href: "#innovation", teaser: "Patents, trademarks & recognition" },
   { label: "Praise", href: "#recommendations", teaser: "What colleagues & partners say" },
+  { label: "FAQ", href: "#faq", teaser: "Questions & answers about Tim" },
   { label: "Contact", href: "#contact", teaser: "Start a conversation" },
 ];
 
@@ -1325,5 +1326,98 @@ export const recommendations = [
       "Tim's incredible business vision and drive is contagious to those who have had the opportunity to work directly with him.",
     author: "Jason Loyet",
     role: "Founder & COO, GlobalStreams",
+  },
+];
+
+// ----------------------------------------------------------------------------
+// REFERENCES & MEDIA — independently verifiable third-party sources.
+// ----------------------------------------------------------------------------
+export const references = [
+  {
+    icon: "📚",
+    name: "SAVVIS — Wikipedia",
+    url: "https://en.wikipedia.org/wiki/Savvis",
+    note: "Company history; NASDAQ (SVVS) and the CenturyLink acquisition.",
+  },
+  {
+    icon: "📚",
+    name: "Terremark — Wikipedia",
+    url: "https://en.wikipedia.org/wiki/Terremark",
+    note: "Intira's lineage; later acquired by Verizon for ~$1.6B.",
+  },
+  {
+    icon: "🎮",
+    name: "Phantom (game console) — Wikipedia",
+    url: "https://en.wikipedia.org/wiki/Phantom_(game_console)",
+    note: "Infinium Labs / Phantom Entertainment and the Lapboard.",
+  },
+  {
+    icon: "📄",
+    name: "HashingSpace — SEC EDGAR",
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=hashingspace&type=&dateb=&owner=include&count=40",
+    note: "Public-company filings (reverse triangular merger).",
+  },
+  {
+    icon: "📄",
+    name: "StationDigital — SEC EDGAR",
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=stationdigital&type=&dateb=&owner=include&count=40",
+    note: "Public-company filings (reverse merger).",
+  },
+  {
+    icon: "🪐",
+    name: "Platformz",
+    url: "https://platformz.us",
+    note: "Current company — Chief Executive Officer.",
+  },
+  {
+    icon: "⚙️",
+    name: "FUR4",
+    url: "https://fur4.com",
+    note: "Current company — Chief Operating Officer & CTO.",
+  },
+  {
+    icon: "🕹️",
+    name: "Phantom — phantom.net",
+    url: "https://www.phantom.net",
+    note: "The Lapboard gaming peripheral, still sold today.",
+  },
+];
+
+// ----------------------------------------------------------------------------
+// FAQ — plain-language answers (also emitted as FAQPage structured data so
+// search engines and AI assistants answer questions about Tim correctly).
+// ----------------------------------------------------------------------------
+export const faqs = [
+  {
+    q: "Who is Timothy Munro Roberts?",
+    a: "Timothy Munro Roberts (Tim Roberts) is a technology founder, enterprise architect, and platform designer with 25+ years building and scaling commerce and infrastructure platforms. He is currently CEO of Platformz and COO & CTO of FUR4, and was born in St. Louis, Missouri in 1970.",
+  },
+  {
+    q: "Did Tim Roberts found SAVVIS?",
+    a: "Yes. In 1994 he co-founded Diamond.net (aka SAVVIS Communications) and served as CTO, designing the first high-quality-of-service national Internet backbone. SAVVIS went public (NASDAQ: SVVS) and was later acquired by CenturyLink (now Lumen) for approximately $3.4B.",
+  },
+  {
+    q: "What companies has Tim Roberts founded or led?",
+    a: "SAVVIS (co-founder & CTO), Intira (founder & CEO), Phoenix Networks (director & investor), Phantom Entertainment (founder, CEO & CTO), GameStreamer (CEO & CTO), Savtira (founder, chairman & CEO), StationDigital (founder & CEO), HashingSpace (founder & CEO), CEOSavvy (managing director), and today Platformz (CEO) and FUR4 (COO & CTO).",
+  },
+  {
+    q: "What is Tim Roberts known for in cloud computing?",
+    a: "He founded Intira in 1997 — the first company ever to sell cloud computing as a service ('Netsourcing'). Intira's lineage continued through Data Return and Terremark (NASDAQ: TMRK), which Verizon acquired for approximately $1.6B.",
+  },
+  {
+    q: "How many companies has Tim Roberts taken public?",
+    a: "Four: SAVVIS (NASDAQ IPO), and Phantom Entertainment, StationDigital, and HashingSpace via reverse mergers.",
+  },
+  {
+    q: "How many patents does Tim Roberts hold?",
+    a: "He is an inventor on 5 patents from Savtira's cloud-commerce platform (application streaming, encoding, and digital-goods auto-publishing), with additional filings prepared for the Platformz multi-tenant architecture.",
+  },
+  {
+    q: "What is Platformz?",
+    a: "Platformz is a multi-tenant, enterprise-class commerce platform and agency (100% owned by FUR4) that powers consumer brands. It's built on React/Next, Magento 2, Strapi, GraphQL, AWS, and Cloudflare, with tenantized portals for customers, dealers, referrals, and more.",
+  },
+  {
+    q: "Where is Tim Roberts based?",
+    a: "St. Louis, Missouri, USA.",
   },
 ];
