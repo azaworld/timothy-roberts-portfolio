@@ -14,6 +14,8 @@ export const SAME_AS = [
   "https://platformz.us",
   "https://fur4.com",
   "https://www.phantom.net",
+  "https://builtbeforecloud.com",
+  "https://builtbeforecloud.com/about-tim",
 ];
 
 // One-paragraph canonical bio (used for meta description + schema description).
@@ -60,6 +62,13 @@ export const personJsonLd = {
     "St. Louis Top 100 of the Millennium",
   ],
   sameAs: SAME_AS,
+  subjectOf: {
+    "@type": "WebSite",
+    name: "Built Before the Cloud",
+    url: "https://builtbeforecloud.com",
+    description:
+      "The firsthand, research-supported story of Timothy Munro Roberts (Tim Roberts)—from Whackoland BBS to Savvis, Intira's NetSourcing and Platformz.",
+  },
 };
 
 export const organizationsJsonLd = [
@@ -72,6 +81,7 @@ export const organizationsJsonLd = [
     description:
       "A multi-tenant, enterprise-class commerce platform and agency powering consumer brands across pet, sports, and other verticals.",
     founder: { "@id": `${SITE_URL}/#person` },
+    sameAs: ["https://builtbeforecloud.com/platformz"],
   },
   {
     "@context": "https://schema.org",

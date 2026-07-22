@@ -100,6 +100,23 @@ export default function Platformz() {
           </ul>
         </div>
       </Reveal>
+
+      {/* The story behind Platformz */}
+      <Reveal delay={140}>
+        <p className="mt-8 text-center text-sm text-muted">
+          Platformz is the system a lifetime of infrastructure prepared me to
+          build — the full story is documented at{" "}
+          <a
+            href="https://builtbeforecloud.com/platformz"
+            target="_blank"
+            rel="noreferrer"
+            className="text-cyan underline decoration-cyan/40 underline-offset-4 transition-colors hover:text-violet"
+          >
+            Built Before the Cloud: the story behind Platformz
+          </a>
+          .
+        </p>
+      </Reveal>
     </Section>
   );
 }

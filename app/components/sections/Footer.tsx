@@ -55,6 +55,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted">
           <a href={profile.platformz} target="_blank" rel="noreferrer" className="transition-colors hover:text-violet">Platformz</a>
+          <a href="https://builtbeforecloud.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-cyan">Built Before the Cloud</a>
           {profile.fur4 && (
             <a href={profile.fur4} target="_blank" rel="noreferrer" className="transition-colors hover:text-amber">FUR4</a>
           )}
