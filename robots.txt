@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://timothymunroroberts.com
+Sitemap: https://timothymunroroberts.com/sitemap.xml
