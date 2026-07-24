@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     siteName: TITLE,
     title: TITLE,
     description: BIO_SHORT,
-    images: [{ url: "/portrait.jpg", width: 1024, height: 1024, alt: "Timothy Munro Roberts" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Timothy Munro Roberts" }],
   },
   twitter: {
     card: "summary_large_image",
     title: TITLE,
     description: BIO_SHORT,
-    images: ["/portrait.jpg"],
+    images: ["/og.png"],
   },
   robots: { index: true, follow: true },
 };

@@ -33,9 +33,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url,
       title,
       description: m.brief,
-      images: [{ url: "/portrait.jpg", alt: PERSON_NAME }],
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: PERSON_NAME }],
     },
-    twitter: { card: "summary_large_image", title, description: m.brief, images: ["/portrait.jpg"] },
+    twitter: { card: "summary_large_image", title, description: m.brief, images: ["/og.png"] },
   };
 }
 
